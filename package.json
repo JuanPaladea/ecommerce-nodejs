@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-nodejs",
+  "version": "1.0.0",
+  "description": "ecommerce nodejs project",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "juan paladea",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
