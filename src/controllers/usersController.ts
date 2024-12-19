@@ -57,7 +57,6 @@ export const loginUser = async (req: Request, res: Response) => {
       expiresIn: '1h'
     });
 
-    // set token to cookie
     res.cookie('token', token, {
       httpOnly: true,
       secure: true,
