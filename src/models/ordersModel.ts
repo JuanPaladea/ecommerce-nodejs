@@ -10,7 +10,7 @@ const orderItemSchema = new mongoose.Schema({
 const orderSchema = new mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'users', required: true },
   items: [orderItemSchema],
-  totalAmount: { type: Number, required: true },
+  totalAmount: { type: Number },
   status: { type: String, enum: ['pending', 'processing', 'shipped', 'delivered', 'cancelled'], default: 'pending' }, 
   payment: { type: mongoose.Schema.Types.ObjectId, ref: 'payments' },
   shipping: { type: mongoose.Schema.Types.ObjectId, ref: 'shippings' },
@@ -19,9 +19,14 @@ const orderSchema = new mongoose.Schema({
 });
 
 orderSchema.methods.calculateTotal = function () {
-  this.totalAmount = this.items.reduce((sum: number, item: any) => sum + item.totalPrice, 0) - this.discountAmount + this.shippingCost;
+  this.totalAmount = this.items.reduce((sum: number, item: any) => sum + item.totalPrice, 0)
   return this.save();
 };
+
+orderSchema.pre("save", function (next) {
+  this.totalAmount = this.items.reduce((sum: number, item: any) => sum + item.totalPrice, 0)
+  next();
+});
 
 const ordersModel = mongoose.model("orders", orderSchema);
 

@@ -31,7 +31,7 @@ export const getProductById = async (req: Request, res: Response) => {
 }
 
 export const createProduct = async (req: Request, res: Response) => {
-  const product = req.body;
+  const product = req.body.product;
 
   try {
     const newProduct = await productsService.createProduct(product);
@@ -44,7 +44,7 @@ export const createProduct = async (req: Request, res: Response) => {
 
 export const updateProduct = async (req: Request, res: Response) => {
   const productId = req.params.productId;
-  const product = req.body;
+  const product = req.body.product;
 
   try {
     const updatedProduct = await productsService.updateProduct(productId, product);

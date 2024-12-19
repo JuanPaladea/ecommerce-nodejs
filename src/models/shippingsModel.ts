@@ -8,7 +8,6 @@ const shippingSchema = new mongoose.Schema({
       city: { type: String, required: true },
       state: { type: String, required: true },
       zipCode: { type: String, required: true },
-      country: { type: String, required: true }
     }], required: true },
   shippingMethod: { type: String, required: true },
   shippingStatus: { type: String, enum: ['pending', 'shipped', 'delivered'], default: 'pending' },
@@ -17,6 +16,6 @@ const shippingSchema = new mongoose.Schema({
   deliveryDate: { type: Date }
 });
 
-const Shipping = mongoose.model('Shipping', shippingSchema);
+const shippingModel = mongoose.model('shippings', shippingSchema);
 
-export default Shipping;
+export default shippingModel;

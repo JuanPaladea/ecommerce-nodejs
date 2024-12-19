@@ -21,7 +21,7 @@ export const registerUser = async (req: Request, res: Response) => {
       email,
       password: hashedPassword
     });
-    res.status(201).send(newUser);
+    res.status(201).send('User created successfully');
   } catch (error: any) {
     logger.error(error);
     res.status(500).send({ message: error.message})
@@ -44,13 +44,13 @@ export const loginUser = async (req: Request, res: Response) => {
     }
 
     (req as any).user = {
-      id: user._id,
+      _id: user._id,
       email: user.email,
       role: user.role
     };
 
     const token = jwt.sign({
-      id: user._id,
+      _id: user._id,
       email: user.email,
       role: user.role
     }, JWT_SECRET, {

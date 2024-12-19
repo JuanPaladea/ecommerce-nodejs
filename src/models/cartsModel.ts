@@ -10,7 +10,7 @@ const cartItemSchema = new mongoose.Schema({
 const cartSchema = new mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'users', required: true },
   items: [ cartItemSchema ],
-  totalAmount: { type: Number, required: true },
+  totalAmount: { type: Number },
   status: { type: String, enum: ['active', 'completed'], default: 'active' },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
@@ -21,6 +21,11 @@ cartSchema.methods.calculateTotalAmount = function() {
   this.updatedAt = Date.now();
   return this.save();
 }
+
+cartSchema.pre('save', function(next) {
+  this.totalAmount = this.items.reduce((total: number, item: any) => total + item.price * item.quantity, 0);
+  next();
+});
 
 const cartModels = mongoose.model("carts", cartSchema);
 
