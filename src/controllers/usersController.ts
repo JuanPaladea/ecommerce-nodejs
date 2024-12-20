@@ -11,17 +11,28 @@ export const registerUser = async (req: Request, res: Response) => {
 
   if (!name || !email || !password) {
     return res.status(400).send({ message: "Missing required information" });
-  }  
+  }
+  
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+/;
+  const passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
+
+  if (!email.match(emailRegex)) {
+    return res.status(400).send({ message: "Invalid email" });
+  }
+
+  if (!password.match(passwordRegex)) {
+    return res.status(400).send({ message: "Password must contain at least 8 characters, one uppercase letter, one lowercase letter, and one number" });
+  }
 
   const hashedPassword = await bcrypt.hash(password, 10);
 
   try {
-    const newUser = await userService.registerUser({
+    await userService.registerUser({
       name,
       email,
       password: hashedPassword
     });
-    res.status(201).send('User created successfully');
+    res.status(201).send('User registered successfully');
   } catch (error: any) {
     logger.error(error);
     res.status(500).send({ message: error.message})
@@ -33,6 +44,11 @@ export const loginUser = async (req: Request, res: Response) => {
 
   if (!email || !password) {
     return res.status(400).send({ message: "Missing required information" });
+  }
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+/;
+  if (!email.match(emailRegex)) {
+    return res.status(400).send({ message: "Invalid email" });
   }
 
   try {
@@ -67,6 +83,7 @@ export const loginUser = async (req: Request, res: Response) => {
       message: "Login successful",
       token,
       user: {
+        _id: user._id,
         name: user.name,
         email: user.email,
         role: user.role
@@ -78,7 +95,20 @@ export const loginUser = async (req: Request, res: Response) => {
   }
 }
 
+export const deleteUser = async (req: Request & { user: { email: string } }, res: Response) => {
+  const { email } = req.user;
+
+  try {
+    await userService.deleteUserByEmail(email);
+    res.status(200).send({ message: "User deleted successfully" });
+  } catch (error: any) {
+    logger.error(error);
+    res.status(500).send({ message: error.message });
+  }
+}
+
 export const logoutUser = async (req: Request, res: Response) => {
+  (req as any).user = null;
   res.clearCookie('token', {
     httpOnly: true,
     secure: true,
@@ -86,4 +116,3 @@ export const logoutUser = async (req: Request, res: Response) => {
   })
   res.status(200).send({ message: "Logout successful" });
 }
-  

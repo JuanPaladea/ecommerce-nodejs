@@ -3,8 +3,8 @@ import { Request, Response } from "express";
 import logger from "../utils/logger";
 import cartService from "../services/cartService";
 
-export const getCartByUserId = async (req: Request, res: Response) => {
-  const userId = req.params.userId;
+export const getCartByUserId = async (req: Request & { user: { _id: string } }, res: Response) => {
+  const userId = req.user._id
 
   try {
     const cart = await cartService.getCartByUserId(userId);
@@ -15,8 +15,8 @@ export const getCartByUserId = async (req: Request, res: Response) => {
   }
 }
 
-export const addProductToCart = async (req: Request, res: Response) => {
-  const userId = req.params.userId;
+export const addProductToCart = async (req: Request & { user: { _id: string } }, res: Response) => {
+  const userId = req.user._id
   const { productId, quantity } = req.body;
 
   try {
@@ -28,8 +28,8 @@ export const addProductToCart = async (req: Request, res: Response) => {
   }
 }
 
-export const updateProductInCart = async (req: Request, res: Response) => {
-  const userId = req.params.userId;
+export const updateProductInCart = async (req: Request & { user: { _id: string } }, res: Response) => {
+  const userId = req.user._id
   const { productId, quantity } = req.body;
 
   try {
@@ -41,8 +41,8 @@ export const updateProductInCart = async (req: Request, res: Response) => {
   }
 }
 
-export const removeProductFromCart = async (req: Request, res: Response) => {
-  const userId = req.params.userId;
+export const removeProductFromCart = async (req: Request & { user: { _id: string } }, res: Response) => {
+  const userId = req.user._id
   const productId = req.params.productId;
 
   try {
@@ -54,8 +54,8 @@ export const removeProductFromCart = async (req: Request, res: Response) => {
   }
 }
 
-export const clearCart = async (req: Request, res: Response) => {
-  const userId = req.params.userId;
+export const clearCart = async (req: Request & { user: { _id: string } }, res: Response) => {
+  const userId = req.user._id
 
   try {
     const cart = await cartService.clearCart(userId);

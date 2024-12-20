@@ -12,9 +12,11 @@ const cartSchema = new mongoose.Schema({
   items: [ cartItemSchema ],
   totalAmount: { type: Number },
   status: { type: String, enum: ['active', 'completed'], default: 'active' },
-  createdAt: { type: Date, default: Date.now },
-  updatedAt: { type: Date, default: Date.now }
-});
+  }, 
+  {
+    timestamps: true
+  }
+);
 
 cartSchema.methods.calculateTotalAmount = function() {
   this.totalAmount = this.items.reduce((total: number, item: any) => total + item.price, 0);

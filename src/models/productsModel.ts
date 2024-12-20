@@ -12,9 +12,11 @@ const productsSchema = new mongoose.Schema({
   stock: { type: Number, required: true },
   isAvailable: { type: Boolean, required: true },
   images: { type: [String], required: true },
-  createdAt: { type: Date, default: Date.now },
-  updatedAt: { type: Date, default: Date.now }
-});
+  },
+  {
+    timestamps: true
+  }
+);
 
 const productsModel = mongoose.model("products", productsSchema);
 

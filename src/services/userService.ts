@@ -16,7 +16,7 @@ class UserService {
         email: newUser.email,
         role: newUser.role,
       };
-
+  
     } catch (error) {
       logger.error(error);
       throw error;
@@ -32,7 +32,21 @@ class UserService {
       }
 
       return user;
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
+  }
 
+  async deleteUserByEmail(email: string) {
+    try {
+      const user = await usersModel.findOneAndDelete({ email });
+
+      if (!user) {
+        throw new Error("User not found");
+      }
+
+      return user;
     } catch (error) {
       logger.error(error);
       throw error;

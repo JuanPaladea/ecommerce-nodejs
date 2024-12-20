@@ -93,3 +93,153 @@ Use mongoose.model(name, schema)
 Use mongoose.model(name, schema)
 2024-12-19T19:40:18.505Z [32minfo[39m: Server is running on port 3000
 2024-12-19T19:41:20.913Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:14:50.374Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:15:03.597Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:15:17.796Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:15:39.995Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:16:13.237Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:16:51.817Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:17:24.752Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:17:30.394Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:18:56.676Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:19:44.794Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:21:03.736Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:21:44.364Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:22:10.070Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:22:52.091Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:23:35.419Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:23:48.817Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:25:01.503Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:25:07.783Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:25:18.671Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:25:26.471Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:25:38.625Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:29:33.357Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:29:57.352Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:30:06.044Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:34:01.989Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:34:26.718Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:34:48.318Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:35:06.816Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:44:09.527Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:44:17.020Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:45:32.760Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:47:26.901Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:47:38.767Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:47:41.997Z [31merror[39m: No token provided
+2024-12-20T15:48:18.877Z [32minfo[39m: Server is running on port 3000
+2024-12-20T15:48:29.526Z [32minfo[39m: Server is running on port 3000
+2024-12-20T16:47:12.529Z [32minfo[39m: Server is running on port 3000
+2024-12-20T16:49:19.338Z [32minfo[39m: Server is running on port 3000
+2024-12-20T16:51:51.299Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:13:47.672Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:14:59.387Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:15:13.204Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:15:18.678Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:21:49.730Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:31:29.777Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:33:07.824Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:35:17.899Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:39:14.357Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:42:43.547Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:43:02.534Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:43:13.694Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:43:36.469Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:46:14.847Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:53:33.260Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:54:18.965Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:54:32.367Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:54:42.502Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:54:58.044Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:55:12.189Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:55:38.532Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:55:49.885Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:56:04.504Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:57:18.970Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:57:34.920Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:58:25.923Z [32minfo[39m: Server is running on port 3000
+2024-12-20T17:58:30.230Z [31merror[39m: No token provided
+2024-12-20T18:03:35.824Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:04:58.903Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:05:04.910Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:05:35.341Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:05:58.044Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:06:07.850Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:06:24.932Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:06:42.145Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:07:05.689Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:07:38.182Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:07:44.916Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:07:55.956Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:08:09.768Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:08:38.092Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:09:20.323Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:09:27.462Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:09:53.473Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:10:25.620Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:10:43.721Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:11:04.508Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:11:35.055Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:14:15.563Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:14:36.956Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:15:19.118Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:15:32.885Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:15:40.091Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:15:56.674Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:16:23.006Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:16:35.868Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:17:07.140Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:17:38.136Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:18:00.525Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:18:17.824Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:18:28.272Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:18:41.775Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:18:48.426Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:18:57.409Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:19:04.551Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:19:37.621Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:19:47.153Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:20:09.227Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:20:26.274Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:20:35.451Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:21:49.068Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:22:00.957Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:22:07.601Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:22:19.994Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:22:29.380Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:22:38.715Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:22:58.355Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:23:06.633Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:23:32.527Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:23:40.365Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:24:09.409Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:25:22.562Z [31merror[39m: User not found
+2024-12-20T18:25:22.562Z [31merror[39m: User not found
+2024-12-20T18:25:22.626Z [31merror[39m: User not found
+2024-12-20T18:25:22.626Z [31merror[39m: User not found
+2024-12-20T18:25:22.683Z [31merror[39m: User not found
+2024-12-20T18:25:22.683Z [31merror[39m: User not found
+2024-12-20T18:25:22.690Z [31merror[39m: No token provided
+2024-12-20T18:25:22.697Z [31merror[39m: Failed to authenticate token
+2024-12-20T18:26:41.276Z [31merror[39m: User already exists
+2024-12-20T18:26:41.276Z [31merror[39m: User already exists
+2024-12-20T18:26:41.351Z [31merror[39m: User not found
+2024-12-20T18:26:41.351Z [31merror[39m: User not found
+2024-12-20T18:26:41.583Z [31merror[39m: No token provided
+2024-12-20T18:28:28.570Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:28:57.802Z [31merror[39m: User already exists
+2024-12-20T18:28:57.802Z [31merror[39m: User already exists
+2024-12-20T18:28:58.039Z [31merror[39m: No token provided
+2024-12-20T18:47:54.120Z [32minfo[39m: Server is running on port 3000
+2024-12-20T18:47:59.797Z [31merror[39m: User already exists
+2024-12-20T18:47:59.797Z [31merror[39m: User already exists
+2024-12-20T18:48:00.050Z [31merror[39m: No token provided
+2024-12-20T18:51:14.205Z [31merror[39m: User already exists
+2024-12-20T18:51:14.205Z [31merror[39m: User already exists
+2024-12-20T18:51:14.460Z [31merror[39m: No token provided
+2024-12-20T18:51:50.200Z [31merror[39m: User already exists
+2024-12-20T18:51:50.200Z [31merror[39m: User already exists
+2024-12-20T18:51:50.462Z [31merror[39m: No token provided
+2024-12-20T18:52:19.634Z [31merror[39m: User already exists
+2024-12-20T18:52:19.634Z [31merror[39m: User already exists
+2024-12-20T18:52:19.899Z [31merror[39m: No token provided

@@ -14,9 +14,11 @@ const orderSchema = new mongoose.Schema({
   status: { type: String, enum: ['pending', 'processing', 'shipped', 'delivered', 'cancelled'], default: 'pending' }, 
   payment: { type: mongoose.Schema.Types.ObjectId, ref: 'payments' },
   shipping: { type: mongoose.Schema.Types.ObjectId, ref: 'shippings' },
-  createdAt: { type: Date, default: Date.now },
-  updatedAt: { type: Date, default: Date.now }
-});
+  },
+  {
+    timestamps: true,
+  }
+);
 
 orderSchema.methods.calculateTotal = function () {
   this.totalAmount = this.items.reduce((sum: number, item: any) => sum + item.totalPrice, 0)

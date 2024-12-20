@@ -3,8 +3,8 @@ import { Request, Response } from "express";
 import logger from "../utils/logger";
 import orderService from "../services/orderService";
 
-export const getOrdersByUserId = async (req: Request, res: Response) => {
-  const userId = req.params.userId;
+export const getOrdersByUserId = async (req: Request & { user: { _id: string } }, res: Response) => {
+  const userId = req.user._id
 
   try {
     const orders = await orderService.getOrdersByUserId(userId);
@@ -27,8 +27,8 @@ export const getOrderById = async (req: Request, res: Response) => {
   }
 }
 
-export const createOrder = async (req: Request, res: Response)  => {
-  const userId = req.params.userId;
+export const createOrder = async (req: Request & { user: { _id: string } }, res: Response)  => {
+  const userId = req.user._id;
   const shippingInfo = req.body.shippingInfo;
   const paymentInfo = req.body.paymentInfo;
 

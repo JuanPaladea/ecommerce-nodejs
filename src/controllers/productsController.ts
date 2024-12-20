@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 
 import productsService from "../services/productsService";
 import logger from "../utils/logger";
+import Product from "../types/Product";
 
 export const getProducts = async (req: Request, res: Response) => {
   const limit = req.query.limit ? parseInt(String(req.query.limit)) : 10;
@@ -31,7 +32,7 @@ export const getProductById = async (req: Request, res: Response) => {
 }
 
 export const createProduct = async (req: Request, res: Response) => {
-  const product = req.body.product;
+  const product: Product = req.body;
 
   try {
     const newProduct = await productsService.createProduct(product);
@@ -44,7 +45,7 @@ export const createProduct = async (req: Request, res: Response) => {
 
 export const updateProduct = async (req: Request, res: Response) => {
   const productId = req.params.productId;
-  const product = req.body.product;
+  const product: Product = req.body;
 
   try {
     const updatedProduct = await productsService.updateProduct(productId, product);
