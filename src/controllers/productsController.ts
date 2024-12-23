@@ -15,7 +15,7 @@ export const getProducts = async (req: Request, res: Response) => {
     res.status(200).send(products);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message})
+    res.status(400).send({ message: error.message})
   }
 }
 
@@ -27,7 +27,7 @@ export const getProductById = async (req: Request, res: Response) => {
     res.status(200).send(product);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message})
+    res.status(400).send({ message: error.message})
   }
 }
 
@@ -39,7 +39,7 @@ export const createProduct = async (req: Request, res: Response) => {
     res.status(201).send(newProduct);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message})
+    res.status(400).send({ message: error.message})
   }
 }
 
@@ -52,7 +52,7 @@ export const updateProduct = async (req: Request, res: Response) => {
     res.status(200).send(updatedProduct);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message})
+    res.status(400).send({ message: error.message})
   }
 }
 
@@ -64,6 +64,6 @@ export const deleteProduct = async (req: Request, res: Response) => {
     res.status(200).send(deletedProduct);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message})
+    res.status(400).send({ message: error.message})
   }
 }

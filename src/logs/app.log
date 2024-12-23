@@ -243,3 +243,559 @@ Use mongoose.model(name, schema)
 2024-12-20T18:52:19.634Z [31merror[39m: User already exists
 2024-12-20T18:52:19.634Z [31merror[39m: User already exists
 2024-12-20T18:52:19.899Z [31merror[39m: No token provided
+2024-12-23T14:41:19.792Z [32minfo[39m: Server is running on port 3000
+2024-12-23T14:41:29.795Z [32minfo[39m: Server is running on port 3000
+2024-12-23T14:41:46.452Z [31merror[39m: User already exists
+2024-12-23T14:41:46.452Z [31merror[39m: User already exists
+2024-12-23T14:41:46.458Z [31merror[39m: No token provided
+2024-12-23T14:41:46.466Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:41:46.466Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:41:46.602Z [31merror[39m: No token provided
+2024-12-23T14:41:46.695Z [31merror[39m: No token provided
+2024-12-23T14:41:46.739Z [31merror[39m: No token provided
+2024-12-23T14:41:46.745Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:41:46.745Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:42:15.927Z [31merror[39m: User already exists
+2024-12-23T14:42:15.927Z [31merror[39m: User already exists
+2024-12-23T14:42:16.157Z [31merror[39m: No token provided
+2024-12-23T14:42:16.159Z [31merror[39m: No token provided
+2024-12-23T14:42:16.164Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:42:16.164Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:42:16.288Z [31merror[39m: No token provided
+2024-12-23T14:42:16.437Z [31merror[39m: No token provided
+2024-12-23T14:42:16.444Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:42:16.444Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:53:33.595Z [32minfo[39m: Server is running on port 3000
+2024-12-23T14:53:39.797Z [31merror[39m: User already exists
+2024-12-23T14:53:39.797Z [31merror[39m: User already exists
+2024-12-23T14:53:39.895Z [31merror[39m: No token provided
+2024-12-23T14:53:39.901Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:53:39.901Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:53:40.024Z [31merror[39m: No token provided
+2024-12-23T14:53:40.041Z [31merror[39m: No token provided
+2024-12-23T14:53:40.072Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products"
+2024-12-23T14:53:40.072Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products"
+2024-12-23T14:53:40.089Z [31merror[39m: No token provided
+2024-12-23T14:53:40.094Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:53:40.094Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:53:40.174Z [31merror[39m: Insufficient stock
+2024-12-23T14:53:40.174Z [31merror[39m: Insufficient stock
+2024-12-23T14:53:40.514Z [31merror[39m: Product not found in cart
+2024-12-23T14:53:40.514Z [31merror[39m: Product not found in cart
+2024-12-23T14:53:40.611Z [31merror[39m: Insufficient stock
+2024-12-23T14:53:40.611Z [31merror[39m: Insufficient stock
+2024-12-23T14:53:40.759Z [31merror[39m: Product not found in cart
+2024-12-23T14:53:40.759Z [31merror[39m: Product not found in cart
+2024-12-23T14:54:06.728Z [32minfo[39m: Server is running on port 3000
+2024-12-23T14:56:31.302Z [31merror[39m: No token provided
+2024-12-23T14:56:31.308Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:56:31.308Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T14:56:31.349Z [31merror[39m: User already exists
+2024-12-23T14:56:31.349Z [31merror[39m: User already exists
+2024-12-23T14:56:31.427Z [31merror[39m: No token provided
+2024-12-23T14:56:31.488Z [31merror[39m: No token provided
+2024-12-23T14:56:31.499Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:56:31.499Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T14:56:31.590Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products"
+2024-12-23T14:56:31.590Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products"
+2024-12-23T14:56:31.607Z [31merror[39m: No token provided
+2024-12-23T14:56:31.683Z [31merror[39m: Insufficient stock
+2024-12-23T14:56:31.683Z [31merror[39m: Insufficient stock
+2024-12-23T14:56:32.013Z [31merror[39m: Product not found in cart
+2024-12-23T14:56:32.013Z [31merror[39m: Product not found in cart
+2024-12-23T14:56:32.111Z [31merror[39m: Insufficient stock
+2024-12-23T14:56:32.111Z [31merror[39m: Insufficient stock
+2024-12-23T14:56:32.265Z [31merror[39m: Product not found in cart
+2024-12-23T14:56:32.265Z [31merror[39m: Product not found in cart
+2024-12-23T15:08:15.480Z [32minfo[39m: Server is running on port 3000
+2024-12-23T15:08:52.522Z [31merror[39m: No token provided
+2024-12-23T15:10:47.600Z [32minfo[39m: Server is running on port 3000
+2024-12-23T15:15:37.972Z [32minfo[39m: Server is running on port 3000
+2024-12-23T15:21:10.937Z [32minfo[39m: Server is running on port 3000
+2024-12-23T15:32:38.993Z [32minfo[39m: Server is running on port 3000
+2024-12-23T15:36:59.571Z [31merror[39m: User already exists
+2024-12-23T15:36:59.571Z [31merror[39m: User already exists
+2024-12-23T15:36:59.682Z [31merror[39m: No token provided
+2024-12-23T15:36:59.688Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T15:36:59.688Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T15:36:59.711Z [31merror[39m: Cart is empty
+2024-12-23T15:36:59.711Z [31merror[39m: Cart is empty
+2024-12-23T15:36:59.810Z [31merror[39m: No token provided
+2024-12-23T15:36:59.834Z [31merror[39m: No token provided
+2024-12-23T15:36:59.872Z [31merror[39m: No token provided
+2024-12-23T15:36:59.881Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T15:36:59.881Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T15:37:00.053Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:37:00.053Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:37:00.069Z [31merror[39m: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "products"
+2024-12-23T15:37:00.069Z [31merror[39m: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "products"
+2024-12-23T15:37:00.120Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:37:00.120Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:37:00.126Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:37:00.126Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:37:00.133Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:37:00.133Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:37:00.179Z [31merror[39m: Insufficient stock
+2024-12-23T15:37:00.179Z [31merror[39m: Insufficient stock
+2024-12-23T15:37:00.510Z [31merror[39m: Product not found in cart
+2024-12-23T15:37:00.510Z [31merror[39m: Product not found in cart
+2024-12-23T15:37:00.617Z [31merror[39m: Insufficient stock
+2024-12-23T15:37:00.617Z [31merror[39m: Insufficient stock
+2024-12-23T15:37:00.780Z [31merror[39m: Product not found in cart
+2024-12-23T15:37:00.780Z [31merror[39m: Product not found in cart
+2024-12-23T15:39:29.577Z [31merror[39m: No token provided
+2024-12-23T15:39:29.582Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T15:39:29.582Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T15:39:29.601Z [31merror[39m: User already exists
+2024-12-23T15:39:29.601Z [31merror[39m: User already exists
+2024-12-23T15:39:29.681Z [31merror[39m: Cast to ObjectId failed for value "3" (type number) at path "_id" for model "products"
+2024-12-23T15:39:29.681Z [31merror[39m: Cast to ObjectId failed for value "3" (type number) at path "_id" for model "products"
+2024-12-23T15:39:29.692Z [31merror[39m: No token provided
+2024-12-23T15:39:29.756Z [31merror[39m: No token provided
+2024-12-23T15:39:29.762Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T15:39:29.762Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T15:39:29.783Z [31merror[39m: Insufficient stock
+2024-12-23T15:39:29.783Z [31merror[39m: Insufficient stock
+2024-12-23T15:39:29.841Z [31merror[39m: No token provided
+2024-12-23T15:39:29.992Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:39:29.992Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:39:30.087Z [31merror[39m: Product not found in cart
+2024-12-23T15:39:30.087Z [31merror[39m: Product not found in cart
+2024-12-23T15:39:30.186Z [31merror[39m: Insufficient stock
+2024-12-23T15:39:30.186Z [31merror[39m: Insufficient stock
+2024-12-23T15:39:30.328Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:39:30.328Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:39:30.350Z [31merror[39m: Product not found in cart
+2024-12-23T15:39:30.350Z [31merror[39m: Product not found in cart
+2024-12-23T15:39:30.390Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:39:30.390Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:39:30.396Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:39:30.396Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:39:30.401Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:39:30.401Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:41:16.591Z [32minfo[39m: Server is running on port 3000
+2024-12-23T15:41:22.911Z [31merror[39m: No token provided
+2024-12-23T15:41:22.919Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T15:41:22.919Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T15:41:23.029Z [31merror[39m: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "products"
+2024-12-23T15:41:23.029Z [31merror[39m: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "products"
+2024-12-23T15:41:23.059Z [31merror[39m: No token provided
+2024-12-23T15:41:23.127Z [31merror[39m: Insufficient stock
+2024-12-23T15:41:23.127Z [31merror[39m: Insufficient stock
+2024-12-23T15:41:23.130Z [31merror[39m: No token provided
+2024-12-23T15:41:23.132Z [31merror[39m: No token provided
+2024-12-23T15:41:23.139Z [31merror[39m: Failed to authenticate token
+2024-12-23T15:41:23.143Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T15:41:23.143Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T15:41:23.488Z [31merror[39m: Product not found in cart
+2024-12-23T15:41:23.488Z [31merror[39m: Product not found in cart
+2024-12-23T15:41:23.598Z [31merror[39m: Insufficient stock
+2024-12-23T15:41:23.598Z [31merror[39m: Insufficient stock
+2024-12-23T15:41:23.650Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:41:23.650Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:41:23.777Z [31merror[39m: Product not found in cart
+2024-12-23T15:41:23.777Z [31merror[39m: Product not found in cart
+2024-12-23T15:41:24.027Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:41:24.027Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod')
+2024-12-23T15:41:24.112Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:41:24.112Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:41:24.118Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:41:24.118Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:41:24.123Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T15:41:24.123Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T17:50:37.537Z [32minfo[39m: Server is running on port 3000
+2024-12-23T17:50:46.408Z [31merror[39m: No token provided
+2024-12-23T17:50:46.415Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T17:50:46.415Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T17:50:46.541Z [31merror[39m: No token provided
+2024-12-23T17:50:46.592Z [31merror[39m: No token provided
+2024-12-23T17:50:46.598Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T17:50:46.598Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T17:50:46.600Z [31merror[39m: No token provided
+2024-12-23T17:50:46.716Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products"
+2024-12-23T17:50:46.716Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products"
+2024-12-23T17:50:46.820Z [31merror[39m: Insufficient stock
+2024-12-23T17:50:46.820Z [31merror[39m: Insufficient stock
+2024-12-23T17:50:46.936Z [31merror[39m: Cannot read properties of null (reading '_id')
+2024-12-23T17:50:46.936Z [31merror[39m: Cannot read properties of null (reading '_id')
+2024-12-23T17:50:47.117Z [31merror[39m: Product not found in cart
+2024-12-23T17:50:47.117Z [31merror[39m: Product not found in cart
+2024-12-23T17:50:47.177Z [31merror[39m: Cannot read properties of null (reading '_id')
+2024-12-23T17:50:47.177Z [31merror[39m: Cannot read properties of null (reading '_id')
+2024-12-23T17:50:47.209Z [31merror[39m: Insufficient stock
+2024-12-23T17:50:47.209Z [31merror[39m: Insufficient stock
+2024-12-23T17:50:47.241Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T17:50:47.241Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T17:50:47.247Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T17:50:47.247Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T17:50:47.254Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T17:50:47.254Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders"
+2024-12-23T17:50:47.362Z [31merror[39m: Product not found in cart
+2024-12-23T17:50:47.362Z [31merror[39m: Product not found in cart
+2024-12-23T17:53:08.611Z [32minfo[39m: Server is running on port 3000
+2024-12-23T17:53:18.410Z [32minfo[39m: Server is running on port 3000
+2024-12-23T17:53:50.663Z [32minfo[39m: Server is running on port 3000
+2024-12-23T17:54:58.540Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T17:57:08.680Z [31merror[39m: No token provided 
+2024-12-23T17:57:08.696Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T17:57:08.696Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T17:57:08.708Z [31merror[39m: Cart is empty 
+2024-12-23T17:57:08.708Z [31merror[39m: Cart is empty 
+2024-12-23T17:57:08.808Z [31merror[39m: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "products" path=_id
+2024-12-23T17:57:08.808Z [31merror[39m: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "products" path=_id
+2024-12-23T17:57:08.835Z [31merror[39m: No token provided 
+2024-12-23T17:57:08.904Z [31merror[39m: No token provided 
+2024-12-23T17:57:08.909Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T17:57:08.909Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T17:57:08.930Z [31merror[39m: Insufficient stock 
+2024-12-23T17:57:08.930Z [31merror[39m: Insufficient stock 
+2024-12-23T17:57:08.947Z [31merror[39m: User already exists 
+2024-12-23T17:57:08.947Z [31merror[39m: User already exists 
+2024-12-23T17:57:09.200Z [31merror[39m: No matching document found for id "6765acccadc4d7f2176a7ff3" version 21 modifiedPaths "items, items.0, items.0.quantity" 
+2024-12-23T17:57:09.200Z [31merror[39m: No matching document found for id "6765acccadc4d7f2176a7ff3" version 21 modifiedPaths "items, items.0, items.0.quantity" 
+2024-12-23T17:57:09.206Z [31merror[39m: No token provided 
+2024-12-23T17:57:09.264Z [31merror[39m: Product not found in cart 
+2024-12-23T17:57:09.264Z [31merror[39m: Product not found in cart 
+2024-12-23T17:57:09.347Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T17:57:09.347Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T17:57:09.370Z [31merror[39m: Insufficient stock 
+2024-12-23T17:57:09.370Z [31merror[39m: Insufficient stock 
+2024-12-23T17:57:09.417Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T17:57:09.417Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T17:57:09.426Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T17:57:09.426Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T17:57:09.436Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T17:57:09.436Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T17:57:09.547Z [31merror[39m: Product not found in cart 
+2024-12-23T17:57:09.547Z [31merror[39m: Product not found in cart 
+2024-12-23T18:00:24.386Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:00:28.830Z [31merror[39m: No token provided 
+2024-12-23T18:00:28.837Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:00:28.837Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:00:28.846Z [31merror[39m: Cart is empty 
+2024-12-23T18:00:28.846Z [31merror[39m: Cart is empty 
+2024-12-23T18:00:28.957Z [31merror[39m: Cast to ObjectId failed for value "0" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:00:28.957Z [31merror[39m: Cast to ObjectId failed for value "0" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:00:28.975Z [31merror[39m: No token provided 
+2024-12-23T18:00:29.037Z [31merror[39m: No token provided 
+2024-12-23T18:00:29.043Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:00:29.043Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:00:29.056Z [31merror[39m: Insufficient stock 
+2024-12-23T18:00:29.056Z [31merror[39m: Insufficient stock 
+2024-12-23T18:00:29.089Z [31merror[39m: User already exists 
+2024-12-23T18:00:29.089Z [31merror[39m: User already exists 
+2024-12-23T18:00:29.252Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:00:29.252Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:00:29.320Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:00:29.320Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:00:29.328Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:00:29.328Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:00:29.337Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:00:29.337Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:00:29.347Z [31merror[39m: No token provided 
+2024-12-23T18:00:29.393Z [31merror[39m: Product not found in cart 
+2024-12-23T18:00:29.393Z [31merror[39m: Product not found in cart 
+2024-12-23T18:00:29.495Z [31merror[39m: Insufficient stock 
+2024-12-23T18:00:29.495Z [31merror[39m: Insufficient stock 
+2024-12-23T18:00:29.665Z [31merror[39m: Product not found in cart 
+2024-12-23T18:00:29.665Z [31merror[39m: Product not found in cart 
+2024-12-23T18:01:15.491Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:06:00.511Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:06:21.071Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:06:31.301Z [31merror[39m: No token provided 
+2024-12-23T18:06:31.308Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:06:31.308Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:06:31.339Z [31merror[39m: User already exists 
+2024-12-23T18:06:31.339Z [31merror[39m: User already exists 
+2024-12-23T18:06:31.414Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:06:31.414Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:06:31.432Z [31merror[39m: No token provided 
+2024-12-23T18:06:31.499Z [31merror[39m: No token provided 
+2024-12-23T18:06:31.505Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:06:31.505Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:06:31.523Z [31merror[39m: Insufficient stock 
+2024-12-23T18:06:31.523Z [31merror[39m: Insufficient stock 
+2024-12-23T18:06:53.730Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:07:17.541Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:07:40.238Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:08:03.552Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:08:12.542Z [31merror[39m: No token provided 
+2024-12-23T18:08:12.549Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:08:12.549Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:08:12.637Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:08:12.637Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:08:12.674Z [31merror[39m: No token provided 
+2024-12-23T18:08:12.707Z [31merror[39m: No token provided 
+2024-12-23T18:08:12.737Z [31merror[39m: Insufficient stock 
+2024-12-23T18:08:12.737Z [31merror[39m: Insufficient stock 
+2024-12-23T18:08:12.741Z [31merror[39m: No token provided 
+2024-12-23T18:08:12.748Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:08:12.748Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:08:12.942Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:08:12.942Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:08:13.055Z [31merror[39m: Product not found in cart 
+2024-12-23T18:08:13.055Z [31merror[39m: Product not found in cart 
+2024-12-23T18:08:13.153Z [31merror[39m: Insufficient stock 
+2024-12-23T18:08:13.153Z [31merror[39m: Insufficient stock 
+2024-12-23T18:08:13.347Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:08:13.347Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:08:13.352Z [31merror[39m: Product not found in cart 
+2024-12-23T18:08:13.352Z [31merror[39m: Product not found in cart 
+2024-12-23T18:08:13.408Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:08:13.408Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:08:13.413Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:08:13.413Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:08:13.418Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:08:13.418Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:09:02.350Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:09:11.952Z [31merror[39m: Cart is empty 
+2024-12-23T18:09:11.952Z [31merror[39m: Cart is empty 
+2024-12-23T18:09:11.978Z [31merror[39m: User already exists 
+2024-12-23T18:09:11.978Z [31merror[39m: User already exists 
+2024-12-23T18:09:12.072Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:09:12.072Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:09:12.184Z [31merror[39m: Insufficient stock 
+2024-12-23T18:09:12.184Z [31merror[39m: Insufficient stock 
+2024-12-23T18:09:12.247Z [31merror[39m: No token provided 
+2024-12-23T18:09:12.268Z [31merror[39m: No token provided 
+2024-12-23T18:09:12.276Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:09:12.276Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:09:12.328Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:09:12.328Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:09:12.398Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:09:12.398Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:09:12.403Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:09:12.403Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:09:12.404Z [31merror[39m: No token provided 
+2024-12-23T18:09:12.410Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:09:12.410Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:09:12.482Z [31merror[39m: No token provided 
+2024-12-23T18:09:12.488Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:09:12.488Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:09:12.534Z [31merror[39m: Product not found in cart 
+2024-12-23T18:09:12.534Z [31merror[39m: Product not found in cart 
+2024-12-23T18:09:12.644Z [31merror[39m: Insufficient stock 
+2024-12-23T18:09:12.644Z [31merror[39m: Insufficient stock 
+2024-12-23T18:09:12.814Z [31merror[39m: Product not found in cart 
+2024-12-23T18:09:12.814Z [31merror[39m: Product not found in cart 
+2024-12-23T18:11:12.577Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:11:18.526Z [31merror[39m: No token provided 
+2024-12-23T18:11:18.532Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:11:18.532Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:11:18.616Z [31merror[39m: User already exists 
+2024-12-23T18:11:18.616Z [31merror[39m: User already exists 
+2024-12-23T18:11:18.645Z [31merror[39m: No token provided 
+2024-12-23T18:11:18.654Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:11:18.654Z [31merror[39m: Cast to ObjectId failed for value "4" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:11:18.702Z [31merror[39m: No token provided 
+2024-12-23T18:11:18.708Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:11:18.708Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:11:18.750Z [31merror[39m: Insufficient stock 
+2024-12-23T18:11:18.750Z [31merror[39m: Insufficient stock 
+2024-12-23T18:11:18.885Z [31merror[39m: No token provided 
+2024-12-23T18:11:18.926Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:11:18.926Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:11:19.097Z [31merror[39m: Product not found in cart 
+2024-12-23T18:11:19.097Z [31merror[39m: Product not found in cart 
+2024-12-23T18:11:19.200Z [31merror[39m: Insufficient stock 
+2024-12-23T18:11:19.200Z [31merror[39m: Insufficient stock 
+2024-12-23T18:11:19.260Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:11:19.260Z [31merror[39m: Cannot read properties of undefined (reading 'paymentMethod') 
+2024-12-23T18:11:19.322Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:11:19.322Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:11:19.329Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:11:19.329Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:11:19.338Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:11:19.338Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:11:19.359Z [31merror[39m: Product not found in cart 
+2024-12-23T18:11:19.359Z [31merror[39m: Product not found in cart 
+2024-12-23T18:15:15.778Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:16:00.125Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:16:19.689Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:16:22.582Z [31merror[39m: No token provided 
+2024-12-23T18:16:22.588Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:16:22.588Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:16:22.631Z [31merror[39m: User already exists 
+2024-12-23T18:16:22.631Z [31merror[39m: User already exists 
+2024-12-23T18:16:22.687Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:16:22.687Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:16:22.721Z [31merror[39m: No token provided 
+2024-12-23T18:16:22.790Z [31merror[39m: Insufficient stock 
+2024-12-23T18:16:22.790Z [31merror[39m: Insufficient stock 
+2024-12-23T18:16:22.792Z [31merror[39m: No token provided 
+2024-12-23T18:16:22.802Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:16:22.802Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:16:22.881Z [31merror[39m: No token provided 
+2024-12-23T18:16:22.990Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:16:22.990Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:16:23.147Z [31merror[39m: Product not found in cart 
+2024-12-23T18:16:23.147Z [31merror[39m: Product not found in cart 
+2024-12-23T18:16:23.261Z [31merror[39m: Insufficient stock 
+2024-12-23T18:16:23.261Z [31merror[39m: Insufficient stock 
+2024-12-23T18:16:23.373Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:16:23.373Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:16:23.433Z [31merror[39m: Product not found in cart 
+2024-12-23T18:16:23.433Z [31merror[39m: Product not found in cart 
+2024-12-23T18:16:23.443Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:16:23.443Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:16:23.449Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:16:23.449Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:16:23.459Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:16:23.459Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:17:18.234Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:17:28.287Z [31merror[39m: No token provided 
+2024-12-23T18:17:28.295Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:17:28.295Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:17:28.305Z [31merror[39m: User already exists 
+2024-12-23T18:17:28.305Z [31merror[39m: User already exists 
+2024-12-23T18:17:28.390Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:17:28.390Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:17:28.420Z [31merror[39m: No token provided 
+2024-12-23T18:17:28.484Z [31merror[39m: Insufficient stock 
+2024-12-23T18:17:28.484Z [31merror[39m: Insufficient stock 
+2024-12-23T18:17:28.494Z [31merror[39m: No token provided 
+2024-12-23T18:17:28.500Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:17:28.500Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:17:28.540Z [31merror[39m: No token provided 
+2024-12-23T18:17:28.689Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:17:28.689Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:17:28.802Z [31merror[39m: Product not found in cart 
+2024-12-23T18:17:28.802Z [31merror[39m: Product not found in cart 
+2024-12-23T18:17:28.901Z [31merror[39m: Insufficient stock 
+2024-12-23T18:17:28.901Z [31merror[39m: Insufficient stock 
+2024-12-23T18:17:29.030Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:17:29.030Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:17:29.061Z [31merror[39m: Product not found in cart 
+2024-12-23T18:17:29.061Z [31merror[39m: Product not found in cart 
+2024-12-23T18:17:29.087Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:17:29.087Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:17:29.093Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:17:29.093Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:17:29.098Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:17:29.098Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:17:49.965Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:18:03.182Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:18:37.593Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:18:42.382Z [31merror[39m: Cart is empty 
+2024-12-23T18:18:42.382Z [31merror[39m: Cart is empty 
+2024-12-23T18:18:42.427Z [31merror[39m: User already exists 
+2024-12-23T18:18:42.427Z [31merror[39m: User already exists 
+2024-12-23T18:18:42.508Z [31merror[39m: Cast to ObjectId failed for value "3" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:18:42.508Z [31merror[39m: Cast to ObjectId failed for value "3" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:18:42.620Z [31merror[39m: Insufficient stock 
+2024-12-23T18:18:42.620Z [31merror[39m: Insufficient stock 
+2024-12-23T18:18:42.672Z [31merror[39m: No token provided 
+2024-12-23T18:18:42.681Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:18:42.681Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:18:42.694Z [31merror[39m: No token provided 
+2024-12-23T18:18:42.740Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:18:42.740Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required. 
+2024-12-23T18:18:42.816Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:18:42.816Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:18:42.818Z [31merror[39m: No token provided 
+2024-12-23T18:18:42.826Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:18:42.826Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:18:42.836Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:18:42.836Z [31merror[39m: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "orders" path=_id
+2024-12-23T18:18:42.885Z [31merror[39m: No token provided 
+2024-12-23T18:18:42.890Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:18:42.890Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:18:43.006Z [31merror[39m: Product not found in cart 
+2024-12-23T18:18:43.006Z [31merror[39m: Product not found in cart 
+2024-12-23T18:18:43.116Z [31merror[39m: Insufficient stock 
+2024-12-23T18:18:43.116Z [31merror[39m: Insufficient stock 
+2024-12-23T18:18:43.282Z [31merror[39m: Product not found in cart 
+2024-12-23T18:18:43.282Z [31merror[39m: Product not found in cart 
+2024-12-23T18:20:38.633Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:21:01.330Z [31merror[39m: No token provided 
+2024-12-23T18:21:01.344Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:21:01.344Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:21:01.422Z [31merror[39m: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:21:01.422Z [31merror[39m: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:21:01.424Z [31merror[39m: User already exists 
+2024-12-23T18:21:01.424Z [31merror[39m: User already exists 
+2024-12-23T18:21:01.477Z [31merror[39m: No token provided 
+2024-12-23T18:21:01.527Z [31merror[39m: Insufficient stock 
+2024-12-23T18:21:01.527Z [31merror[39m: Insufficient stock 
+2024-12-23T18:21:01.550Z [31merror[39m: No token provided 
+2024-12-23T18:21:01.559Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:21:01.559Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:21:01.675Z [31merror[39m: No token provided 
+2024-12-23T18:21:01.856Z [31merror[39m: Product not found in cart 
+2024-12-23T18:21:01.856Z [31merror[39m: Product not found in cart 
+2024-12-23T18:21:01.960Z [31merror[39m: Insufficient stock 
+2024-12-23T18:21:01.960Z [31merror[39m: Insufficient stock 
+2024-12-23T18:21:02.117Z [31merror[39m: Product not found in cart 
+2024-12-23T18:21:02.117Z [31merror[39m: Product not found in cart 
+2024-12-23T18:21:31.629Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:25:02.669Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:25:08.516Z [31merror[39m: No token provided 
+2024-12-23T18:25:08.522Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:25:08.522Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:25:08.635Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:25:08.635Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:25:08.642Z [31merror[39m: No token provided 
+2024-12-23T18:25:08.701Z [31merror[39m: No token provided 
+2024-12-23T18:25:08.704Z [31merror[39m: No token provided 
+2024-12-23T18:25:08.708Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:25:08.708Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:25:08.710Z [31merror[39m: Failed to authenticate token 
+2024-12-23T18:25:08.731Z [31merror[39m: Insufficient stock 
+2024-12-23T18:25:08.731Z [31merror[39m: Insufficient stock 
+2024-12-23T18:25:09.091Z [31merror[39m: Product not found in cart 
+2024-12-23T18:25:09.091Z [31merror[39m: Product not found in cart 
+2024-12-23T18:25:09.148Z [31merror[39m: Product not found in cart 
+2024-12-23T18:25:09.148Z [31merror[39m: Product not found in cart 
+2024-12-23T18:25:09.202Z [31merror[39m: Product not found in cart 
+2024-12-23T18:25:09.202Z [31merror[39m: Product not found in cart 
+2024-12-23T18:25:09.263Z [31merror[39m: Product not found in cart 
+2024-12-23T18:25:09.263Z [31merror[39m: Product not found in cart 
+2024-12-23T18:29:51.534Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:29:56.764Z [31merror[39m: No token provided 
+2024-12-23T18:29:56.770Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:29:56.770Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required. 
+2024-12-23T18:29:56.798Z [31merror[39m: Cart is empty 
+2024-12-23T18:29:56.798Z [31merror[39m: Cart is empty 
+2024-12-23T18:29:56.877Z [31merror[39m: Cast to ObjectId failed for value "3" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:29:56.877Z [31merror[39m: Cast to ObjectId failed for value "3" (type number) at path "_id" for model "products" path=_id
+2024-12-23T18:29:56.891Z [31merror[39m: No token provided 
+2024-12-23T18:29:56.951Z [31merror[39m: No token provided 
+2024-12-23T18:29:56.958Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:29:56.958Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products" path=_id
+2024-12-23T18:29:56.992Z [31merror[39m: Insufficient stock 
+2024-12-23T18:29:56.992Z [31merror[39m: Insufficient stock 
+2024-12-23T18:29:57.280Z [31merror[39m: User already exists 
+2024-12-23T18:29:57.280Z [31merror[39m: User already exists 
+2024-12-23T18:29:57.314Z [31merror[39m: Product not found in cart 
+2024-12-23T18:29:57.314Z [31merror[39m: Product not found in cart 
+2024-12-23T18:29:57.411Z [31merror[39m: Insufficient stock 
+2024-12-23T18:29:57.411Z [31merror[39m: Insufficient stock 
+2024-12-23T18:29:57.530Z [31merror[39m: No token provided 
+2024-12-23T18:29:57.593Z [31merror[39m: Product not found in cart 
+2024-12-23T18:29:57.593Z [31merror[39m: Product not found in cart 
+2024-12-23T18:32:49.030Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:34:03.492Z [32minfo[39m: Server is running on port 3000 
+2024-12-23T18:35:49.675Z [32minfo[39m: Server is running on port 3000
+2024-12-23T18:36:15.330Z [32minfo[39m: Server is running on port 3000
+2024-12-23T18:43:57.934Z [31merror[39m: Cart is empty
+2024-12-23T18:43:57.934Z [31merror[39m: Cart is empty
+2024-12-23T18:43:57.981Z [31merror[39m: User already exists
+2024-12-23T18:43:57.981Z [31merror[39m: User already exists
+2024-12-23T18:43:58.032Z [31merror[39m: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "products"
+2024-12-23T18:43:58.032Z [31merror[39m: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "products"
+2024-12-23T18:43:58.126Z [31merror[39m: Insufficient stock
+2024-12-23T18:43:58.126Z [31merror[39m: Insufficient stock
+2024-12-23T18:43:58.209Z [31merror[39m: No token provided
+2024-12-23T18:43:58.214Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T18:43:58.214Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2024-12-23T18:43:58.216Z [31merror[39m: No token provided
+2024-12-23T18:43:58.338Z [31merror[39m: No token provided
+2024-12-23T18:43:58.397Z [31merror[39m: No token provided
+2024-12-23T18:43:58.401Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T18:43:58.401Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2024-12-23T18:43:58.437Z [31merror[39m: Product not found in cart
+2024-12-23T18:43:58.437Z [31merror[39m: Product not found in cart
+2024-12-23T18:43:58.531Z [31merror[39m: Insufficient stock
+2024-12-23T18:43:58.531Z [31merror[39m: Insufficient stock
+2024-12-23T18:43:58.681Z [31merror[39m: Product not found in cart
+2024-12-23T18:43:58.681Z [31merror[39m: Product not found in cart

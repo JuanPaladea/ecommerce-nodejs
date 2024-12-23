@@ -99,6 +99,10 @@ class CartService {
         throw new Error("Cart not found");
       }
 
+      if (!cart.items.find((item) => item.productId.toString() === productId)) {
+        throw new Error("Product not found in cart");
+      }
+
       cart.items = cart.items.filter((item) => item.productId.toString() !== productId) as any;
       await cart.save();
       return cart;

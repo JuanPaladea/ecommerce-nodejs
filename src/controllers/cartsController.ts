@@ -11,7 +11,7 @@ export const getCartByUserId = async (req: Request & { user: { _id: string } }, 
     res.status(200).send(cart);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
@@ -21,10 +21,10 @@ export const addProductToCart = async (req: Request & { user: { _id: string } },
 
   try {
     const cart = await cartService.addProductToCart(userId, productId, quantity);
-    res.status(200).send(cart);
+    res.status(201).send(cart);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
@@ -37,7 +37,7 @@ export const updateProductInCart = async (req: Request & { user: { _id: string }
     res.status(200).send(cart);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
@@ -50,7 +50,7 @@ export const removeProductFromCart = async (req: Request & { user: { _id: string
     res.status(200).send(cart);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
@@ -62,7 +62,7 @@ export const clearCart = async (req: Request & { user: { _id: string } }, res: R
     res.status(200).send(cart);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 

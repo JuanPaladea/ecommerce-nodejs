@@ -5,7 +5,7 @@ const request = supertest("http://localhost:3000");
 
 let token = ""
 let email = faker.internet.email()
-let password = faker.internet.password()
+let password = "ContraseñaDePrueba12!"
 
 describe("API Users", () => {
   it("should register a new user", async () => {
@@ -31,10 +31,10 @@ describe("API Users", () => {
     const response = await request.post("/api/users/register").send({
       name: faker.person.fullName(),
       email: email,
-      password: faker.internet.password(),
+      password: password
     });
 
-    expect(response.status).toBe(500);
+    expect(response.status).toBe(400);
   });
 
   it("should try to register a new user with an invalid email", async () => {
@@ -69,7 +69,7 @@ describe("API Users", () => {
   it("should try to login with an invalid password", async () => {
     const response = await request.post("/api/users/login").send({
       email: email,
-      password: "Invalid-password123",
+      password: "Invalid",
     });
 
     expect(response.status).toBe(401);

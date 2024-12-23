@@ -1,7 +1,6 @@
 import { Router } from "express";
 import { getCartByUserId, addProductToCart, updateProductInCart, removeProductFromCart, clearCart } from "../controllers/cartsController";
 import auth from "../middlewares/auth";
-import isOwner from "../middlewares/isOwner";
 const router = Router();
 
 router.get('/', auth as any, getCartByUserId as any);

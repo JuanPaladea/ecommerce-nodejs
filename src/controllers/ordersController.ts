@@ -11,7 +11,7 @@ export const getOrdersByUserId = async (req: Request & { user: { _id: string } }
     res.status(200).send(orders);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
@@ -23,34 +23,33 @@ export const getOrderById = async (req: Request, res: Response) => {
     res.status(200).send(order);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
 export const createOrder = async (req: Request & { user: { _id: string } }, res: Response)  => {
   const userId = req.user._id;
-  const shippingInfo = req.body.shippingInfo;
-  const paymentInfo = req.body.paymentInfo;
+  const { shippingInfo, paymentMethod } = req.body;
 
   try {
-    const order = await orderService.createOrder(userId, shippingInfo, paymentInfo);
+    const order = await orderService.createOrder(userId, shippingInfo, paymentMethod);
     res.status(201).send(order);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
 export const updateOrderStatus = async (req: Request, res: Response) => {
   const orderId = req.params.orderId;
-  const status = req.body.status;
+  const {status} = req.body.status;
 
   try {
     const order = await orderService.updateOrderStatus(orderId, status);
     res.status(200).send(order);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }
 
@@ -62,6 +61,6 @@ export const deleteOrder = async (req: Request, res: Response) => {
     res.status(200).send(order);
   } catch (error: any) {
     logger.error(error);
-    res.status(500).send({ message: error.message });
+    res.status(400).send({ message: error.message });
   }
 }

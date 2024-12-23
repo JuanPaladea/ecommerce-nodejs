@@ -20,7 +20,7 @@ class OrderService {
     }
   }
 
-  async createOrder(userId: string, shipping: Shipping, payment: Payment) {
+  async createOrder(userId: string, shipping: Shipping, paymentMethod: Payment) {
     try {
       const cart = await cartsModel.findOne({ userId }).populate("items.productId");
       if (!cart) {
@@ -55,7 +55,7 @@ class OrderService {
 
       const newPayment = new paymentsModel({
         orderId: order._id,
-        paymentMethod: payment.paymentMethod,
+        paymentMethod,
         amount: order.items.reduce((acc, item) => acc + item.totalPrice, 0),
       });
       await newPayment.save();
