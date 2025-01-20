@@ -10,7 +10,7 @@ export const createPaymentPreference = async (req: Request, res: Response) => {
     const order = await orderService.getOrderById(req.params.orderId);
 
     const body = {
-      items: order.items.map((item) => ({
+      items: order.items.map((item: any) => ({
         title: item.productId.name,
         description: item.productId.description,
         quantity: item.quantity,
@@ -27,6 +27,14 @@ export const createPaymentPreference = async (req: Request, res: Response) => {
         pending: "http://localhost:3000/pending",
       },
     }
+
+    payment.create({ body }).then((response) => {
+      res.status(200).send(response.body);
+    }).catch((error) => {
+      throw error;
+    }
+  } catch (error: any) {
+    res.status(400).send({ message: error.message });
   }
 };
 
