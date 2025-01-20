@@ -5,6 +5,7 @@
   "main": "src/app.ts",
   "scripts": {
     "dev": "nodemon src/server.ts",
+    "start": "node src/server.ts",
     "test": "jest"
   },
   "author": "juan paladea",
