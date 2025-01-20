@@ -5,7 +5,7 @@
   "main": "src/app.ts",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "start": "node src/server.ts",
+    "start": "ts-node src/server.ts",
     "test": "jest"
   },
   "author": "juan paladea",
@@ -20,7 +20,7 @@
     "express-rate-limit": "^7.5.0",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
-    "mercadopago": "^2.1.0",
+    "mercadopago": "^2.2.0",
     "mongoose": "^8.9.0",
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.16",
