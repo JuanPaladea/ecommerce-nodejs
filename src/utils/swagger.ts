@@ -4,9 +4,9 @@ export const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "MovieReservation API",
+      title: "Ecommerce API",
       version: "1.0.0",
-      description: "Movie Reservation API",
+      description: "Ecommerce API in TypeScript",
     },
     components: {
       securitySchemes: {
