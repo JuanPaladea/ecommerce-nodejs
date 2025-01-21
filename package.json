@@ -5,7 +5,8 @@
   "main": "src/app.ts",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "test": "jest"
   },
   "author": "juan paladea",
@@ -51,6 +52,6 @@
     "supertest": "^7.0.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   }
 }

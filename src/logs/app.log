@@ -1,0 +1,75 @@
+2025-01-21T13:24:44.835Z [31merror[39m: No token provided
+2025-01-21T13:24:56.402Z [31merror[39m: No token provided
+2025-01-21T13:24:56.409Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2025-01-21T13:24:56.409Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2025-01-21T13:24:56.413Z [31merror[39m: Cart is empty
+2025-01-21T13:24:56.413Z [31merror[39m: Cart is empty
+2025-01-21T13:24:56.462Z [31merror[39m: User already exists
+2025-01-21T13:24:56.462Z [31merror[39m: User already exists
+2025-01-21T13:24:56.521Z [31merror[39m: No token provided
+2025-01-21T13:24:56.571Z [31merror[39m: No token provided
+2025-01-21T13:24:56.576Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2025-01-21T13:24:56.576Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2025-01-21T13:24:56.702Z [31merror[39m: No token provided
+2025-01-21T13:24:56.736Z [31merror[39m: Cast to ObjectId failed for value "0" (type number) at path "_id" for model "products"
+2025-01-21T13:24:56.736Z [31merror[39m: Cast to ObjectId failed for value "0" (type number) at path "_id" for model "products"
+2025-01-21T13:24:56.826Z [31merror[39m: Insufficient stock
+2025-01-21T13:24:56.826Z [31merror[39m: Insufficient stock
+2025-01-21T13:24:56.973Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:56.973Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.031Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.031Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.077Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.077Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.129Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.129Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.185Z [31merror[39m: Product not found in cart
+2025-01-21T13:24:57.185Z [31merror[39m: Product not found in cart
+2025-01-21T13:25:25.730Z [31merror[39m: No token provided
+2025-01-21T13:25:25.735Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2025-01-21T13:25:25.735Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2025-01-21T13:25:25.761Z [31merror[39m: Cart is empty
+2025-01-21T13:25:25.761Z [31merror[39m: Cart is empty
+2025-01-21T13:25:25.775Z [31merror[39m: User already exists
+2025-01-21T13:25:25.775Z [31merror[39m: User already exists
+2025-01-21T13:25:25.831Z [31merror[39m: No token provided
+2025-01-21T13:25:25.883Z [31merror[39m: No token provided
+2025-01-21T13:25:25.888Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2025-01-21T13:25:25.888Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2025-01-21T13:25:25.922Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products"
+2025-01-21T13:25:25.922Z [31merror[39m: Cast to ObjectId failed for value "6" (type number) at path "_id" for model "products"
+2025-01-21T13:25:25.995Z [31merror[39m: No token provided
+2025-01-21T13:25:26.025Z [31merror[39m: Insufficient stock
+2025-01-21T13:25:26.025Z [31merror[39m: Insufficient stock
+2025-01-21T13:25:26.347Z [31merror[39m: Product not found in cart
+2025-01-21T13:25:26.347Z [31merror[39m: Product not found in cart
+2025-01-21T13:25:26.475Z [31merror[39m: Insufficient stock
+2025-01-21T13:25:26.475Z [31merror[39m: Insufficient stock
+2025-01-21T13:25:26.526Z [31merror[39m: Product not found in cart
+2025-01-21T13:25:26.526Z [31merror[39m: Product not found in cart
+2025-01-21T13:25:26.583Z [31merror[39m: Product not found in cart
+2025-01-21T13:25:26.583Z [31merror[39m: Product not found in cart
+2025-01-21T13:26:13.573Z [31merror[39m: Cart is empty
+2025-01-21T13:26:13.573Z [31merror[39m: Cart is empty
+2025-01-21T13:26:13.617Z [31merror[39m: No token provided
+2025-01-21T13:26:13.622Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2025-01-21T13:26:13.622Z [31merror[39m: products validation failed: brand: Path `brand` is required., shortDescription: Path `shortDescription` is required.
+2025-01-21T13:26:13.692Z [31merror[39m: User already exists
+2025-01-21T13:26:13.692Z [31merror[39m: User already exists
+2025-01-21T13:26:13.727Z [31merror[39m: No token provided
+2025-01-21T13:26:13.756Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products"
+2025-01-21T13:26:13.756Z [31merror[39m: Cast to ObjectId failed for value "2" (type number) at path "_id" for model "products"
+2025-01-21T13:26:13.782Z [31merror[39m: No token provided
+2025-01-21T13:26:13.785Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2025-01-21T13:26:13.785Z [31merror[39m: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "products"
+2025-01-21T13:26:13.847Z [31merror[39m: Insufficient stock
+2025-01-21T13:26:13.847Z [31merror[39m: Insufficient stock
+2025-01-21T13:26:13.920Z [31merror[39m: No token provided
+2025-01-21T13:26:14.154Z [31merror[39m: Product not found in cart
+2025-01-21T13:26:14.154Z [31merror[39m: Product not found in cart
+2025-01-21T13:26:14.247Z [31merror[39m: Insufficient stock
+2025-01-21T13:26:14.247Z [31merror[39m: Insufficient stock
+2025-01-21T13:26:14.298Z [31merror[39m: Product not found in cart
+2025-01-21T13:26:14.298Z [31merror[39m: Product not found in cart
+2025-01-21T13:26:14.359Z [31merror[39m: Product not found in cart
+2025-01-21T13:26:14.359Z [31merror[39m: Product not found in cart
