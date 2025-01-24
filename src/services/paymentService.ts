@@ -8,8 +8,7 @@ class PaymentService {
       const paymentIntent = await stripe.paymentIntents.create({
         amount,
         currency: "usd",
-        confirmation_method: "manual",
-        confirm: true,
+        automatic_payment_methods: { enabled: true }
       });
 
       const payment = new paymentsModel({

@@ -86,7 +86,7 @@ class OrderService {
         }
       }
 
-      await cartsModel.findOneAndUpdate({ userId }, { items: [] });
+      await cartsModel.findOneAndUpdate({ userId }, { items: [], totalAmount: 0 });
       await order.save();
       return order;
     } catch (error) {
