@@ -38,8 +38,8 @@ paths:
               properties:
                 shippingInfo:
                   $ref: '#/components/schemas/Shipping'
-                paymentInfo:
-                  $ref: '#/components/schemas/Payment'
+                paymentMethod:
+                  type: string
       responses:
         '200':
           description: Order added
@@ -178,7 +178,7 @@ components:
     Shipping:
       type: object
       properties:
-        shippingAdress:
+        shippingAddress:
           type: object
           properties:
             address:

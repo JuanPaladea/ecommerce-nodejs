@@ -73,3 +73,23 @@
 2025-01-21T13:26:14.298Z [31merror[39m: Product not found in cart
 2025-01-21T13:26:14.359Z [31merror[39m: Product not found in cart
 2025-01-21T13:26:14.359Z [31merror[39m: Product not found in cart
+2025-01-23T15:09:01.131Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required.
+2025-01-23T15:09:01.131Z [31merror[39m: payments validation failed: paymentMethod: Path `paymentMethod` is required.
+2025-01-23T15:11:34.746Z [31merror[39m: Cannot read properties of undefined (reading 'address')
+2025-01-23T15:11:34.746Z [31merror[39m: Cannot read properties of undefined (reading 'address')
+2025-01-23T15:14:30.840Z [31merror[39m: No token provided
+2025-01-23T15:15:08.169Z [31merror[39m: Order not found
+2025-01-23T15:15:08.169Z [31merror[39m: Order not found
+2025-01-23T15:16:14.062Z [31merror[39m: Order not found
+2025-01-23T15:16:14.062Z [31merror[39m: Order not found
+2025-01-23T15:17:38.606Z [31merror[39m: Order not found
+2025-01-23T15:17:38.606Z [31merror[39m: Order not found
+2025-01-23T15:17:45.230Z [31merror[39m: Order not found
+2025-01-23T15:17:45.230Z [31merror[39m: Order not found
+2025-01-23T15:18:04.510Z [31merror[39m: Invalid integer: 129.99
+2025-01-23T15:18:04.510Z [31merror[39m: Invalid integer: 129.99
+2025-01-23T15:26:56.255Z [31merror[39m: This PaymentIntent is configured to accept payment methods enabled in your Dashboard. Because some of these payment methods might redirect your customer off of your page, you must provide a `return_url`. If you don't want to accept redirect-based payment methods, set `automatic_payment_methods[enabled]` to `true` and `automatic_payment_methods[allow_redirects]` to `never` when creating Setup Intents and Payment Intents.
+2025-01-23T15:26:56.255Z [31merror[39m: This PaymentIntent is configured to accept payment methods enabled in your Dashboard. Because some of these payment methods might redirect your customer off of your page, you must provide a `return_url`. If you don't want to accept redirect-based payment methods, set `automatic_payment_methods[enabled]` to `true` and `automatic_payment_methods[allow_redirects]` to `never` when creating Setup Intents and Payment Intents.
+2025-01-24T13:22:42.698Z [31merror[39m: No token provided
+2025-01-24T13:23:34.153Z [31merror[39m: payments validation failed: paymentStatus: `requires_payment_method` is not a valid enum value for path `paymentStatus`.
+2025-01-24T13:23:34.153Z [31merror[39m: payments validation failed: paymentStatus: `requires_payment_method` is not a valid enum value for path `paymentStatus`.
